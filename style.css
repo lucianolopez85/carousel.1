@@ -1,0 +1,31 @@
+html, body{
+    position: relative;
+    height: 100%;
+}
+body{
+    background-color: rgb(192, 255, 255);
+    font-family: Helvetica , sans-serif;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    transition: .3s ease all;
+}
+.swiper-slide{
+    width: 180px;
+    display: static;    
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center ;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    transform: scale(1.1);
+}
+img{
+    width: 155px;
+    height: auto;
+    cursor: pointer;
+}
